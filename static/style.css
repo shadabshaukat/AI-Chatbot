@@ -1,0 +1,90 @@
+#chat-container {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+#chat-header {
+    background-color: #f3f3f3;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+#chat-header #company-logo {
+    max-height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+#chat-header h1 {
+    margin: 0;
+    padding-top: 5px;
+}
+
+#chat-box {
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+}
+
+#chat-input input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+#chat-input button {
+    padding: 5px 10px;
+}
+
+#messages div {
+    margin-bottom: 10px;
+}
+
+pre {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+#chat-input button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #f3f3f3; /* Light grey background */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change mouse cursor on hover */
+}
+
+#chat-input button:hover {
+    background-color: #e9e9e9; /* Slightly darker grey for hover effect */
+}
+
+#clear-btn {
+    color: #555; /* Darker text color for visibility */
+}
+

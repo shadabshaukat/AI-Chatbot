@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-header">
+            <img id="company-logo" src="logo.jpg" alt="Company Logo" />
+            <h1>AI Chatbot</h1>
+        </div>
+        <div id="chat-box">
+            <div id="messages"></div>
+        </div>
+        <div id="chat-input">
+            <input type="text" id="input" placeholder="Type your message here..." onkeypress="if(event.keyCode == 13) sendMessage();">
+            <button onclick="sendMessage()">Send</button>
+            <button id="clear-btn" onclick="clearChat()">🗑️</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
