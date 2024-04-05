@@ -12,6 +12,7 @@ cd AI-Chatbot/
 vim .env
 
 OPENAI_API_KEY=Paste-Your-OpenAI-API-Key
+
 OPENAI_MODEL=gpt-3.5-turbo
 
 ## Build the Container Image
