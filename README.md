@@ -36,3 +36,6 @@ docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' cont
 ## Open AI Chatbot from Browser
 
 http://localhost:8000/static/index.html
+
+<img width="820" alt="Screenshot 2024-04-05 at 9 41 29 pm" src="https://github.com/shadabshaukat/AI-Chatbot/assets/39692236/11b3754d-cf41-4bf9-b07b-085c0940d772">
+
