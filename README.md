@@ -8,7 +8,7 @@ git clone https://github.com/shadabshaukat/AI-Chatbot.git && cd AI-Chatbot/
 
 ## Edit the .env file and Add your GPT model and OpenAI API Key
 
-vim .env
+**vim .env**
 
 ```bash
 OPENAI_API_KEY=Paste-Your-OpenAI-API-Key-Here
