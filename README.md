@@ -1,11 +1,9 @@
 # AI-Chatbot
-An AI Chatbot build using OpenAI APIs
+A conversational AI Chatbot build using Python3, OpenAI and FastAPI
 
 ## Clone Repository
 ```
-git clone https://github.com/shadabshaukat/AI-Chatbot.git
-
-cd AI-Chatbot/
+git clone https://github.com/shadabshaukat/AI-Chatbot.git && cd AI-Chatbot/
 ```
 
 ## Edit the .env file and Add your GPT model and OpenAI API Key
@@ -13,7 +11,7 @@ cd AI-Chatbot/
 vim .env
 
 ```
-OPENAI_API_KEY=Paste-Your-OpenAI-API-Key
+OPENAI_API_KEY=Paste-Your-OpenAI-API-Key-Here
 
 OPENAI_MODEL=gpt-3.5-turbo
 ```
