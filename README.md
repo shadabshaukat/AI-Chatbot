@@ -2,7 +2,7 @@
 A conversational AI Chatbot build using Python3, OpenAI and FastAPI
 
 ## Clone Repository
-```
+```bash
 git clone https://github.com/shadabshaukat/AI-Chatbot.git && cd AI-Chatbot/
 ```
 
@@ -10,7 +10,7 @@ git clone https://github.com/shadabshaukat/AI-Chatbot.git && cd AI-Chatbot/
 
 vim .env
 
-```
+```bash
 OPENAI_API_KEY=Paste-Your-OpenAI-API-Key-Here
 
 OPENAI_MODEL=gpt-3.5-turbo
@@ -18,13 +18,13 @@ OPENAI_MODEL=gpt-3.5-turbo
 
 ## Build the Container Image
 
-```
+```bash
 docker build -t my-ai-chatbot-app .
 ```
 
 ## Run the Container
 
-```
+```bash
 docker run -d -p 8000:8000 --env-file .env my-ai-chatbot-app
 ```
 
@@ -37,7 +37,7 @@ http://localhost:8000/static/index.html
 
 
 ## Check Status of the Container
-```
+```bash
 docker container ls
 
 docker logs container_id
