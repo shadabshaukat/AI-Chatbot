@@ -39,13 +39,21 @@ http://localhost:8000/static/index.html
 ## Check Status of the Container
 ```bash
 docker container ls
+```
 
+```
 docker logs container_id
+```
 
+```
 docker inspect container_id
+```
 
+```
 docker stats container_id
+```
 
+```
 docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_id
 ```
 
