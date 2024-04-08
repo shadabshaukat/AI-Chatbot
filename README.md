@@ -30,6 +30,15 @@ docker build -t my-ai-chatbot-app .
 docker run -d -p 8000:8000 --env-file .env my-ai-chatbot-app
 ```
 
+## Open AI Chatbot from Browser
+
+http://localhost:8000/static/index.html
+
+
+<img width="822" alt="Screenshot 2024-04-08 at 3 26 42 pm" src="https://github.com/shadabshaukat/AI-Chatbot/assets/39692236/85312674-09fe-4a6c-a72a-ce6171533b59">
+
+
+## Check Status of the Container
 ```
 docker container ls
 
@@ -41,12 +50,4 @@ docker stats container_id
 
 docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_id
 ```
-
-## Open AI Chatbot from Browser
-
-```
-http://localhost:8000/static/index.html
-```
-
-<img width="820" alt="Screenshot 2024-04-05 at 9 41 29 pm" src="https://github.com/shadabshaukat/AI-Chatbot/assets/39692236/11b3754d-cf41-4bf9-b07b-085c0940d772">
 
